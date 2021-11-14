@@ -5,19 +5,21 @@ body{
 
 @media screen and (max-width: 720px){
     .rotatingdiv {
-      width: 17rem !important;
-  margin-left: 13% !important;
+      width: 80% !important;
+      margin-left: 10% !important;      
   height: 40vh !important;
   display: block;
   margin-top: 2rem; 
     }
-    .odlucisediv{ height: 28rem !important;}    
+    .odlucisediv{ height: 36rem !important;}    
 .bodyimg{
   height:180vh !important;
    
 }
 .navlogo{ width: 16rem !important;}
-.selldiv{ margin:0% !important;}
+.selldiv{
+  margin: 0% !important;
+margin-top: 5rem !important; }
 .imgkdiv{
   display: inherit !important;
   height: 100vh !important;
@@ -54,11 +56,12 @@ margin-left: 0% !important;}
 }
 .navbaar{
   background-image: url(https://ipi-akademija.ba/images/meni2.jpg);
+width: 100%;
+position: sticky !important;
+top: 0;
+z-index: 10;
+}
 
-}
-.navbarfix{
-  position: sticky !important;
-}
 .linav{
 margin-left: 1rem !important;
 }
@@ -389,5 +392,5 @@ border-color: white;
   height: 280px;
 }
 .navlogo{
-  width: auto;
+  width: 100%;
 }
