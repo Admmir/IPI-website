@@ -7,19 +7,18 @@ body{
     .rotatingdiv {
       width: 80% !important;
       margin-left: 10% !important;      
-  height: 40vh !important;
+  height: 25rem !important;
   display: block;
   margin-top: 2rem; 
     }
     .odlucisediv{ height: 36rem !important;}    
 .bodyimg{
-  height:180vh !important;
+  height:240vh !important;
    
 }
 .navlogo{ width: 16rem !important;}
 .selldiv{
-  margin: 0% !important;
-margin-top: 5rem !important; }
+  margin: 0% !important;}
 .imgkdiv{
   display: inherit !important;
   height: 100vh !important;
@@ -210,18 +209,22 @@ border-color: white;
 .studijipiadiv{
   background-image: url(https://ipi-akademija.ba/images/pocetne/prvaslika.jpg);
   background-position: center;
+  background-size: cover;
 }
 .trogodisnjistudij{
   background-image: url(https://ipi-akademija.ba/images/pocetne/trogodprog.jpg);
   background-position: center;
+  background-size: cover;
 }
 .cetverogodstudij{
   background-image: url(https://ipi-akademija.ba/images/pocetne/cetverogod.jpg);
   background-position: center;
+  background-size: cover;
 }
 .nirad{
   background-position: center;
   background-image: url(https://ipi-akademija.ba/images/pocetne/naucno.jpg);
+  background-size: cover;
 }
 .ptextlarge{
   font-size: 130%;
