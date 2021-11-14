@@ -6,7 +6,7 @@ body{
 @media screen and (max-width: 720px){
     .rotatingdiv {
       width: 17rem !important;
-  margin-left: 20% !important;
+  margin-left: 13% !important;
   height: 40vh !important;
   display: block;
   margin-top: 2rem; 
@@ -16,21 +16,24 @@ body{
   height:180vh !important;
    
 }
+.navlogo{ width: 16rem !important;}
 .selldiv{ margin:0% !important;}
 .imgkdiv{
   display: inherit !important;
   height: 100vh !important;
 }
 .korisnilinkovidiv{margin-inline-start: 0% !important;
-margin-top: 2rem;}
+margin-top: 2rem;
+width: 100% !important;}
 .dinlineblock{ display: block !important;
-margin-left: 8% !important;}
-.blinks{ width: 24rem !important;}
+margin-left: 0% !important;}
+.blinks{ width: 100% !important;}
 .kontaktbtn{ margin-left: 37% !important;}
 .dinlineblock2{display: block !important;}
 .mapouter{margin:0px !important}
 .footerdiv{height: auto !important;}
 .kontaktandlinksdiv{ width: 100% !important;}
+.aclas{ font-size: 60%;}
 }
 
 
@@ -99,7 +102,7 @@ height: 35rem;
 
 .korisnilinkovi{
   display: inline-block;
-  width: 28.7rem;
+  width: 100%;
   height: 3rem;
   background-color:#345aaa;
   font-size: 110%;
@@ -109,8 +112,8 @@ height: 35rem;
   z-index: 2;
   display: block;
   margin-inline-start: 5%;
-  width: 28.7rem;
-  height: 50vh;
+  width: 30%;
+  height: 60vh;
   background-color: rgb(255, 255, 255);
 }
 .alinks{
@@ -384,4 +387,7 @@ border-color: white;
 #gmap_canvas{
   width: 100%;
   height: 280px;
+}
+.navlogo{
+  width: auto;
 }
